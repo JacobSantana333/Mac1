@@ -96,3 +96,6 @@ class EntityTrainer():
 
         a = sentence.find(word)
         return (a, a + len(word))
+
+#e = EntityTrainer()
+#e.train()
