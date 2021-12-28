@@ -7,16 +7,16 @@ class AudioFeed:
 
     def build(self, width, height):
         # ceate button
-        lbl = Button(text="Audio feed", size_hint_y=.3)
+        lbl = Label(text="Audio feed", size_hint_y=.3, color=(.5, .7, 1, 1))
         lbl.font_size = 11
         lbl.bind()
-        lbl2 = Button(text="Audio Text", size_hint_y=.2)
+        lbl2 = Label(text="Audio Text", size_hint_y=.2, color=(.5, .7, 1, 1))
         lbl2.font_size = 11
         lbl2.bind()
-        lbl3 = Button(text="Audio feed", size_hint_y=.3)
+        lbl3 = Label(text="Audio feed", size_hint_y=.3, color=(.5, .7, 1, 1))
         lbl3.font_size = 11
         lbl3.bind()
-        lbl4 = Button(text="Audio Text", size_hint_y=.2)
+        lbl4 = Label(text="Audio Text", size_hint_y=.2, color=(.5, .7, 1, 1))
         lbl4.font_size = 11
         lbl4.bind()
 

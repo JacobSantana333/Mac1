@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a68030e-b8db-47f0-a380-5a6ab758168f" name="Changes" comment="Revert &quot;fixed the issues&quot;&#10;&#10;This reverts commit 6807fa07a8cdef59a42443ce65c704e4e47e7d63.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <list id="aa579199-ec86-47bd-a56a-28c67ae98f80" name="Ignore" comment="Ignore">
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/meta.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/ner/cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/ner/model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/ner/moves" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/tokenizer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/vocab/key2row" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/vocab/lookups.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/vocab/strings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/vocab/vectors" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Unsupervised/BertModel.pt" beforeDir="false" />
+    <list default="true" id="1a68030e-b8db-47f0-a380-5a6ab758168f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/VideoFeedtemp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/AudioFeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/AudioFeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/StatusFeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/StatusFeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/TempFeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/TempFeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/TopRowFeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/TopRowFeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/VideoFeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/VideoFeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/DisplayCortex/Gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/DisplayCortex/Gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Supervised/LearnSupervised.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Supervised/LearnSupervised.py" afterDir="false" />
     </list>
+    <list id="aa579199-ec86-47bd-a56a-28c67ae98f80" name="Ignore" comment="Ignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,9 +56,15 @@
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.LearnEntities (1)">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jcsan\PycharmProjects\Mac1\CNS\DisplayCortex\DataFeeds" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Gui (1)">
     <configuration name="Conscious" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Mac1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Gui (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Mac1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,11 +94,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Nuclei/DisplayCortex" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNS/DisplayCortex" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Nuclei/DisplayCortex/Gui.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNS/DisplayCortex/Gui.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.LearnEntities (1)" />
+        <item itemvalue="Python.Gui (1)" />
         <item itemvalue="Python.Conscious" />
+        <item itemvalue="Python.LearnEntities (1)" />
         <item itemvalue="Python.LearnEntities" />
         <item itemvalue="Python.LearnBERT" />
-        <item itemvalue="Python.Gui" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640718451490</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Revert &quot;fixed the issues&quot;&#10;&#10;This reverts commit 6807fa07a8cdef59a42443ce65c704e4e47e7d63.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1640718862458</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1640718862458</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,7 +267,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>

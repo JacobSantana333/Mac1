@@ -8,7 +8,7 @@ class StatusFeed:
 
     def build(self, width, height):
         # ceate button
-        lbl = Button(text="status feed")
+        lbl = Label(text="status feed", color=(.5, .7, 1, 1))
         lbl.font_size = 11
         lbl.bind()
         # create grid layout

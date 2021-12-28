@@ -19,7 +19,7 @@ def learn_language():
     classes = []
     documents = []
     ignore_words = ['?', '!']
-    data_file = open(r'/CNS\LanguageCortex\Learning\FunctionalIntents.json').read()
+    data_file = open(r'CNS\LanguageCortex\Learning\FunctionalIntents.json').read()
     intents = json.loads(data_file)
     for intent in intents['intents']:
         for pattern in intent['patterns']:
@@ -45,8 +45,8 @@ def learn_language():
 
     print(len(words), "unique lemmatized words", words)
 
-    pickle.dump(words, open(r'/CNS\LanguageCortex\Learning\Supervised\words.pkl', 'wb'))
-    pickle.dump(classes, open(r'/CNS\LanguageCortex\Learning\Supervised\classes.pkl', 'wb'))
+    pickle.dump(words, open(r'CNS\LanguageCortex\Learning\Supervised\words.pkl', 'wb'))
+    pickle.dump(classes, open(r'CNS\LanguageCortex\Learning\Supervised\classes.pkl', 'wb'))
 
     # initializing training data
     training = []
