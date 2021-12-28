@@ -1,6 +1,6 @@
-#AI
+# AI
 
-##To Do
+## To Do
 
 1. Gui
    1. Swap buttons for labels

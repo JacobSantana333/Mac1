@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a68030e-b8db-47f0-a380-5a6ab758168f" name="Changes" comment="Revert &quot;fixed the issues&quot;&#10;&#10;This reverts commit 6807fa07a8cdef59a42443ce65c704e4e47e7d63.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Mac1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mac1.iml" afterDir="false" />
+    <list default="true" id="1a68030e-b8db-47f0-a380-5a6ab758168f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <list id="aa579199-ec86-47bd-a56a-28c67ae98f80" name="Ignore" comment="Ignore">
       <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/meta.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/ner/cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/ner/cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/ner/model" beforeDir="false" afterPath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/ner/model" afterDir="false" />
@@ -15,7 +16,6 @@
       <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/vocab/strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/vocab/strings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/vocab/vectors" beforeDir="false" afterPath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/vocab/vectors" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Unsupervised/BertModel.pt" beforeDir="false" afterPath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Unsupervised/BertModel.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/README.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="22to5ifIzMNWQAZMaI22CRnWX4R" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -164,6 +167,7 @@
     </task>
     <task active="true" id="Default" summary="Default task">
       <changelist id="1a68030e-b8db-47f0-a380-5a6ab758168f" name="Changes" comment="" />
+      <changelist id="aa579199-ec86-47bd-a56a-28c67ae98f80" name="Ignore" comment="" />
       <created>1640666064515</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -190,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640716464838</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Revert &quot;fixed the issues&quot;&#10;&#10;This reverts commit 6807fa07a8cdef59a42443ce65c704e4e47e7d63.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1640716975142</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640716975142</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
