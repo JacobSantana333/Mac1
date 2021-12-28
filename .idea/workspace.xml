@@ -1,47 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a68030e-b8db-47f0-a380-5a6ab758168f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Entities/Model/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Entities/Model/ner/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Entities/Model/ner/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Entities/Model/ner/moves" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Entities/Model/tokenizer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Entities/Model/vocab/key2row" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Entities/Model/vocab/lookups.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Entities/Model/vocab/strings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Entities/Model/vocab/vectors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Unsupervised/BertModel.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Conscious.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/AudioCortex/Listening/ActiveListener.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/AudioCortex/Listening/ActiveListener.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/AudioCortex/Listening/PassiveListener.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/AudioCortex/Listening/PassiveListener.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/AudioCortex/Listening/recording.wav" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/AudioCortex/Listening/recording.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/AudioCortex/Speaking/Respond.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/AudioCortex/Speaking/Respond.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/DisplayCortex/DataFeeds/AudioFeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/AudioFeed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/DisplayCortex/DataFeeds/StatusFeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/StatusFeed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/DisplayCortex/DataFeeds/TempFeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/TempFeed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/DisplayCortex/DataFeeds/TopRowFeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/TopRowFeed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/DisplayCortex/DataFeeds/VideoFeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/VideoFeed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/DisplayCortex/Gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/DisplayCortex/Gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Extensions/DateTime/gCurrentDateTime.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/DateTime/gCurrentDateTime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Extensions/Extensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/Extensions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Extensions/Learning/gNewSkills.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/Learning/gNewSkills.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Extensions/Personal/gHumans.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/Personal/gHumans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Extensions/Reboot/gLanguage.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/Reboot/gLanguage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Extensions/SmartHome/gPhilipsHue.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/SmartHome/gPhilipsHue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Extensions/Weather/gWeather.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/Weather/gWeather.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/LearnEntities.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Entities/LearnEntities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/FunctionalIntents.json" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/FunctionalIntents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/ModifiableIntents.json" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/ModifiableIntents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Supervised/LearnSupervised.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Supervised/LearnSupervised.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Supervised/chatbot_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Supervised/chatbot_model.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Supervised/classes.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Supervised/classes.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Supervised/words.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Supervised/words.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Unsupervised/LearnBERT.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Unsupervised/LearnBERT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Processing/Entities/EntityProcessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Processing/Entities/EntityProcessor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Processing/Supervised/ProcessReply.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Processing/Supervised/ProcessReply.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Processing/Unsupervised/BertProcessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNS/LanguageCortex/Processing/Unsupervised/BertProcessor.py" afterDir="false" />
+    <list default="true" id="1a68030e-b8db-47f0-a380-5a6ab758168f" name="Changes" comment="Revert &quot;fixed the issues&quot;&#10;&#10;This reverts commit 6807fa07a8cdef59a42443ce65c704e4e47e7d63.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Mac1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/AudioCortex/Listening/ActiveListener.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/AudioCortex/Listening/PassiveListener.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/AudioCortex/Listening/recording.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/AudioCortex/Speaking/Respond.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/AudioFeed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/StatusFeed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/TempFeed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/TopRowFeed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/VideoFeed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/DisplayCortex/Gui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/DateTime/gCurrentDateTime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/Extensions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/Learning/gNewSkills.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/Personal/gHumans.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/Reboot/gLanguage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/SmartHome/gPhilipsHue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/Weather/gWeather.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Entities/LearnEntities.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/FunctionalIntents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/ModifiableIntents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Supervised/LearnSupervised.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Unsupervised/LearnBERT.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Processing/Entities/EntityProcessor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Processing/Supervised/ProcessReply.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Processing/Unsupervised/BertProcessor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conscious.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Supervised/chatbot_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Supervised/classes.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Supervised/words.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/Helpers.py" beforeDir="false" />
     </list>
     <list id="aa579199-ec86-47bd-a56a-28c67ae98f80" name="Ignore" comment="Ignore">
       <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/meta.json" beforeDir="false" />
@@ -246,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640717028362</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Revert &quot;fixed the issues&quot;&#10;&#10;This reverts commit 6807fa07a8cdef59a42443ce65c704e4e47e7d63.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1640717994034</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640717994034</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
