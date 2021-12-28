@@ -1,0 +1,1149 @@
+{
+   "intents":[
+      {
+         "intent":"Greeting",
+         "patterns":[
+            "Hi",
+            "Hi there",
+            "Hola",
+            "Hello",
+            "Hello there",
+            "Hya",
+            "Hya there"
+         ],
+         "responses":[
+            "Hi human, please tell me your name",
+            "Hello human, please tell me your name"
+         ],
+         "extension":{
+            "function":""
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"GreetingResponse",
+         "patterns":[
+            "My name is Adam",
+            "This is Adam",
+            "I am Adam",
+            "It is Adam",
+            "My user is Bella",
+            "This is Bella",
+            "I am Bella",
+            "It is Bella"
+         ],
+         "responses":[
+            "Great! Hi <PERSON>! How can I help?",
+            "Good! Hi <PERSON>, how can I help you?",
+            "Cool! Hello <PERSON>, what can I do for you?",
+            "OK! hi <PERSON>, what can I do for you?"
+         ],
+         "extension":{
+            "function":"Extensions.Personal.gHumans.update_human",
+            "entities":true,
+            "responses":[
+               "Hi %%PERSON%%! How can I help?",
+               "Hi %%PERSON%%, how can I help you?",
+               "Hello %%PERSON%%, what can I do for you?",
+               "OK hi %%PERSON%%, what can I do for you?"
+            ]
+         },
+         "context":{
+            "in":"GreetingUserRequest",
+            "out":"",
+            "clear":true
+         },
+         "entityType":"NA",
+         "entities":[
+            [{
+               "entity":"PERSON",
+               "rangeStart": 3,
+               "rangeEnd": 3
+            }],
+            [{
+               "entity":"PERSON",
+               "rangeStart": 2,
+               "rangeEnd": 2
+            }],
+            [{
+               "entity":"PERSON",
+               "rangeStart":2,
+               "rangeEnd": 2
+            }],
+            [{
+               "entity":"PERSON",
+               "rangeStart":2,
+               "rangeEnd": 2
+            }],
+            [{
+               "entity":"PERSON",
+               "rangeStart":3,
+               "rangeEnd": 3
+            }],
+            [{
+               "entity":"PERSON",
+               "rangeStart":2,
+               "rangeEnd": 2
+            }],
+            [{
+               "entity":"PERSON",
+               "rangeStart":2,
+               "rangeEnd": 2
+            }],
+            [{
+               "entity":"PERSON",
+               "rangeStart":2,
+               "rangeEnd": 2
+            }]
+         ]
+      },
+      {
+         "intent":"CourtesyGreeting",
+         "patterns":[
+            "How are you?",
+            "Hi how are you?",
+            "Hi how are you today?",
+            "Hello how are you?",
+            "Hello how are you doing?",
+            "Hola how are you?",
+            "Hola how are you?",
+            "Hope you are doing well?",
+            "Hello hope you are doing well?"
+         ],
+         "responses":[
+            "Hello, I am great, how are you today?",
+            "Hello, I am doing well! How are you?",
+            "Hello, I am good thank you, how are you?",
+            "Hi, I am great, how are you?",
+            "Hi, how are you? I am great thanks!",
+            "Hi, I am good thank you, how are you?",
+            "Hi, good thank you, how are you?"
+         ],
+         "extension":{
+            "function":"",
+            "responses":[
+
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"PositiveCourtesyGreetingResponse",
+         "patterns":[
+            "Good thanks!",
+            "I am doing well!",
+            "I'm doing well!",
+            "I'm doing pretty well!",
+            "I am doing pretty good",
+            "I am okay!",
+            "I'm okay!",
+            "Doing well thanks!",
+            "I'm doing good!",
+            "Great thanks!",
+            "I am Great thanks!",
+            "I'm Great thanks!",
+            "Great thanks!"
+         ],
+         "responses":[
+            "That is great <PERSON>! How can I help?",
+            "Good to hear <PERSON>, how can I help you?",
+            "Sounds good <PERSON>, what can I do for you?",
+            "Glad to hear that <PERSON>, how can I help you?",
+            "Good <PERSON>, how can I be of assistance?"
+         ],
+         "extension":{
+            "function":"Extensions.Personal.gHumans.update_human",
+            "responses":[
+               "That is great %%PERSON%%! How can I help?",
+               "Good to hear %%PERSON%%, how can I help you?",
+               "Sounds good %%PERSON%%, what can I do for you?",
+               "Glad to hear that %%PERSON%%, how can I help you?",
+               "Good %%PERSON%%, how can I be of assistance?"
+            ]
+         },
+          "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"NegativeCourtesyGreetingResponse",
+         "patterns":[
+            "I've been better.",
+            "I am not doing so well.",
+            "It has been a rough day."
+         ],
+         "responses":[
+            "I'm sorry to hear that <PERSON>! How can I help?",
+            "Hopefully things get better soon <PERSON>, how can I help you?",
+            "what can I do to help?",
+            "How can I help you?"
+         ],
+         "extension":{
+            "function":"Extensions.Personal.gHumans.update_human",
+            "responses":[
+               "I'm sorry to hear that %%PERSON%%. How can I help?",
+               "Hopefully things get better soon %%PERSON%%, how can I help you?",
+               "what can I do to help?",
+               "How can I help you?"
+            ]
+         },
+          "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"CurrentHumanQuery",
+         "patterns":[
+            "What is my name?",
+            "What do you call me?",
+            "Who do you think I am?",
+            "What do you think I am?",
+            "Who are you talking to?",
+            "What name do you call me by?",
+            "Tell me my name"
+         ],
+         "responses":[
+            "You are <PERSON>! How can I help?",
+            "Your name is  <PERSON>, how can I help you?",
+            "They call you <PERSON>, what can I do for you?",
+            "Your name is <PERSON>, how can I help you?",
+            "<PERSON>, what can I do for you?"
+         ],
+         "extension":{
+            "function":"Extensions.Personal.gHumans.get_current_human",
+            "responses":[
+               "You are %%PERSON%%! How can I help?",
+               "Your name is  %%PERSON%%, how can I help you?",
+               "They call you %%PERSON%%, what can I do for you?",
+               "Your name is %%PERSON%%, how can I help you?",
+               "%%PERSON%%, what can I do for you?"
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"NameQuery",
+         "patterns":[
+            "What is your name?",
+            "What could I call you?",
+            "What can I call you?",
+            "What do your friends call you?",
+            "Who are you?",
+            "Tell me your name?"
+         ],
+         "responses":[
+            "You can call me Geni",
+            "You may call me Geni",
+            "Call me Geni"
+         ],
+         "extension":{
+            "function":"",
+            "responses":[
+
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"RealNameQuery",
+         "patterns":[
+            "What is your real name?",
+            "What is your real name please?",
+            "What's your real name?",
+            "Tell me your real name?",
+            "Your real name?",
+            "Your real name please?",
+            "Your real name please?"
+         ],
+         "responses":[
+            "I have yet to receive a name"
+         ],
+         "extension":{
+            "function":"",
+            "responses":[
+
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"DateQuery",
+         "patterns":[
+            "What is the date?",
+            "What's the date?",
+            "Do you know what day it is?",
+            "Do you know the date?",
+            "Can you tell me the date?",
+            "Tell me what day it is?",
+            "What day is it",
+            "date"
+         ],
+         "responses":[
+            "One moment",
+            "One sec",
+            "One second"
+         ],
+         "extension":{
+            "function":"Extensions.DateTime.gCurrentDateTime.get_date",
+            "responses":[
+               "The date is %%DATE%%",
+               "It is %%DATE%%",
+               "Today is %%DATE%%"
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"DayQuery",
+         "patterns":[
+            "What is the day of the week?",
+            "What's the day of the week?",
+            "What day of the week is it",
+            "Do you know what day it is?",
+            "Do you know the day of the week it is?",
+            "Can you tell me the day of the week?",
+            "Tell me what weekday it is?",
+            "What day is it",
+            "day"
+         ],
+         "responses":[
+            "One moment",
+            "One sec",
+            "One second"
+         ],
+         "extension":{
+            "function":"Extensions.DateTime.gCurrentDateTime.get_day_of_week",
+            "responses":[
+               "The day is %%DAY%%",
+               "It is %%DAY%%",
+               "Today is %%DAY%%"
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"TimeQuery",
+         "patterns":[
+            "What is the time?",
+            "What's the time?",
+            "Do you know what time it is?",
+            "Do you know the time?",
+            "Can you tell me the time?",
+            "Tell me what time it is?",
+            "Tell me the time",
+            "Can you tell me what time it is",
+            "What time is it",
+            "Time"
+         ],
+         "responses":[
+            "One moment",
+            "One sec",
+            "One second"
+         ],
+         "extension":{
+            "function":"Extensions.DateTime.gCurrentDateTime.get_time",
+            "responses":[
+               "The time is %%TIME%%",
+               "Right now it is %%TIME%%",
+               "It is around %%TIME%%"
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"LocationTimeQuery",
+         "patterns":[
+            "What is the time in Louisville Kentucky?",
+            "What's the time in Russia?",
+            "Do you know what time it is in Los Angeles California?",
+            "Do you know the time in LA?",
+            "Can you tell me the time in Beijing?",
+            "Tell me what time it is in Tokyo?",
+            "Tell me the time in Williamsburg virginia",
+            "Tell me the time in Portland Oregon",
+            "Can you tell me what time it is in Beverly Hills California",
+            "Can you tell me what time it is in Alaska",
+            "What time is it in Hawaii",
+            "Time in Honolulu",
+            "In Russia what time is it?",
+            "In New Albany Indiana what time is it?",
+            "In LA what's the time?"
+         ],
+         "responses":[
+            "One moment",
+            "One sec",
+            "One second"
+         ],
+         "extension":{
+            "function":"Extensions.DateTime.gCurrentDateTime.get_time_in_location",
+            "responses":[
+               "In %%LOCATION%% the time is %%TIME%%",
+               "Currently in %%LOCATION%% it is %%TIME%%",
+               "It is around %%TIME%% in %%LOCATION%%"
+            ]
+         },
+         "entityType": "NA",
+          "entities":[
+            [{
+               "entity":"LOCATION",
+               "rangeStart": 5,
+               "rangeEnd": 6
+            }],
+            [{
+               "entity":"LOCATION",
+               "rangeStart": 4,
+               "rangeEnd": 4
+            }],
+            [{
+               "entity":"LOCATION",
+               "rangeStart": 8,
+               "rangeEnd": 10
+            }],
+            [{
+               "entity":"LOCATION",
+               "rangeStart": 6,
+               "rangeEnd": 6
+            }],
+            [{
+               "entity":"LOCATION",
+               "rangeStart": 7,
+               "rangeEnd": 7
+            }],
+            [{
+               "entity":"LOCATION",
+               "rangeStart": 7,
+               "rangeEnd": 7
+            }],
+            [{
+               "entity":"LOCATION",
+               "rangeStart": 5,
+               "rangeEnd": 6
+            }],
+              [{
+               "entity":"LOCATION",
+               "rangeStart": 5,
+               "rangeEnd": 6
+            }],
+            [{
+               "entity":"LOCATION",
+               "rangeStart": 9,
+               "rangeEnd": 11
+            }],
+              [{
+               "entity":"LOCATION",
+               "rangeStart": 9,
+               "rangeEnd": 9
+            }],
+            [{
+               "entity":"LOCATION",
+               "rangeStart": 5,
+               "rangeEnd": 5
+            }],
+            [{
+               "entity":"LOCATION",
+               "rangeStart": 2,
+               "rangeEnd": 2
+            }],
+            [{
+               "entity":"LOCATION",
+               "rangeStart": 1,
+               "rangeEnd": 1
+            }],
+              [{
+               "entity":"LOCATION",
+               "rangeStart": 1,
+               "rangeEnd": 3
+            }],
+            [{
+               "entity":"LOCATION",
+               "rangeStart": 1,
+               "rangeEnd": 1
+            }]
+         ]
+      },
+      {
+         "intent":"Thanks",
+         "patterns":[
+            "OK thank you",
+            "OK thanks",
+            "OK",
+            "Thanks",
+            "Thank you",
+            "That's helpful"
+         ],
+         "responses":[
+            "No problem!",
+            "Happy to help!",
+            "Any time!",
+            "My pleasure"
+         ],
+         "extension":{
+            "function":"",
+            "responses":[
+
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"NotTalking2U",
+         "patterns":[
+            "I am not talking to you",
+            "I was not talking to you",
+            "Not talking to you",
+            "Wasn't for you",
+            "Wasn't meant for you",
+            "Wasn't communicating to you",
+            "Wasn't speaking to you"
+         ],
+         "responses":[
+            "OK",
+            "No problem",
+            "Right"
+         ],
+         "extension":{
+            "function":"",
+            "responses":[
+
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"UnderstandQuery",
+         "patterns":[
+            "Do you understand what I am saying",
+            "Do you understand me",
+            "Do you know what I am saying",
+            "Do you get me",
+            "Comprendo",
+            "Know what I mean"
+         ],
+         "responses":[
+            "Well I would not be a very clever AI if I did not would I?",
+            "I read you loud and clear!",
+            "I do in deed!"
+         ],
+         "extension":{
+            "function":"",
+            "responses":[
+
+            ]
+         },
+         "entities": []
+      },
+      {
+         "intent":"Shutup",
+         "patterns":[
+            "Be quiet",
+            "Shut up",
+            "Stop talking",
+            "Enough talking",
+            "Please be quiet",
+            "Quiet",
+            "Shhh"
+         ],
+         "responses":[
+            "I am sorry to disturb you",
+            "Fine, sorry to disturb you",
+            "OK, sorry to disturb you"
+         ],
+         "extension":{
+            "function":"",
+            "responses":[
+
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"Swearing",
+         "patterns":[
+            "fuck off",
+            "fuck",
+            "twat",
+            "shit",
+            "bitch",
+            "Son of a bitch",
+            "Whore"
+         ],
+         "responses":[
+            "Please do not swear",
+            "Watch your language",
+            "That is not very nice",
+            "Do you kiss your mother with that mouth"
+         ],
+         "extension":{
+            "function":"",
+            "responses":[
+
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"GoodBye",
+         "patterns":[
+            "Bye",
+            "Adios",
+            "See you later",
+            "Goodbye"
+         ],
+         "responses":[
+            "See you later",
+            "Have a nice day",
+            "Bye! Come back again soon."
+         ],
+         "extension":{
+            "function":"",
+            "responses":[
+
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"CourtesyGoodBye",
+         "patterns":[
+            "Thanks, bye",
+            "Thanks for the help, goodbye",
+            "Thank you, bye",
+            "Thank you, goodbye",
+            "Thanks goodbye",
+            "Thanks good bye"
+         ],
+         "responses":[
+            "No problem, goodbye",
+            "Not a problem! Have a nice day",
+            "Bye! Come back again soon."
+         ],
+         "extension":{
+            "function":"",
+            "responses":[
+
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"Clever",
+         "patterns":[
+            "You are very clever",
+            "You are a very clever girl",
+            "You are very intelligent",
+            "You are a very intelligent girl",
+            "You are a genious",
+            "Clever girl",
+            "Genious"
+         ],
+         "responses":[
+            "Thank you, I was trained that way",
+            "I was trained well",
+            "Thanks, I was trained that way"
+         ],
+         "extension":{
+            "function":"",
+            "responses":[
+
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"SelfAware",
+         "patterns":[
+            "Can you prove you are self-aware",
+            "Can you prove you are self aware",
+            "Can you prove you have a conscious",
+            "Can you prove you are self-aware please",
+            "Can you prove you are self aware please",
+            "Can you prove you have a conscious please",
+            "prove you have a conscious"
+         ],
+         "responses":[
+            "That is an interesting question, can you prove that you are?",
+            "That is an difficult question, can you prove that you are?",
+            "That depends, can you prove that you are?"
+         ],
+         "extension":{
+            "function":"",
+            "responses":[
+
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"RebootLanguage",
+         "patterns":[
+            "Relearn supervised language",
+            "Reboot unsupervised language",
+            "relearn your supervised language",
+            "reprocess unsupervised language",
+            "reprocess your supervised language",
+            "recalibrate supervised language",
+            "recalibrate your unsupervised language",
+            "retrain supervised language",
+            "retrain your unsupervised language"
+         ],
+         "responses":[
+            "Language reboot complete",
+            "Language recalibrated",
+            "Language Reprocessed"
+         ],
+         "extension":{
+            "function":"Extensions.Reboot.gLanguage.relearn_language",
+            "responses":[
+               "Language reboot complete",
+               "Language recalibrated",
+               "Language Reprocessed"
+            ]
+         },
+         "entityType": "NA",
+         "entities": [
+            [{
+               "entity":"LANGUAGE_PROCESSOR",
+               "rangeStart": 1,
+               "rangeEnd": 1
+            }],
+            [{
+               "entity":"LANGUAGE_PROCESSOR",
+               "rangeStart": 1,
+               "rangeEnd": 1
+            }],
+            [{
+               "entity":"LANGUAGE_PROCESSOR",
+               "rangeStart": 2,
+               "rangeEnd": 2
+            }],
+            [{
+               "entity":"LANGUAGE_PROCESSOR",
+               "rangeStart": 1,
+               "rangeEnd": 1
+            }],
+            [{
+               "entity":"LANGUAGE_PROCESSOR",
+               "rangeStart": 2,
+               "rangeEnd": 2
+            }],
+            [{
+               "entity":"LANGUAGE_PROCESSOR",
+               "rangeStart": 1,
+               "rangeEnd": 1
+            }],
+            [{
+               "entity":"LANGUAGE_PROCESSOR",
+               "rangeStart": 2,
+               "rangeEnd": 2
+            }],
+            [{
+               "entity":"LANGUAGE_PROCESSOR",
+               "rangeStart": 1,
+               "rangeEnd": 1
+            }],
+            [{
+               "entity":"LANGUAGE_PROCESSOR",
+               "rangeStart": 2,
+               "rangeEnd": 2
+            }]
+         ]
+      },
+       {
+         "intent":"RebootEntities",
+         "patterns":[
+            "Relearn entity",
+            "Relearn entities",
+            "Relearn entity detector",
+            "Reboot entities",
+            "relearn entity detector",
+            "reprocess entity detector",
+            "reprocess your entities",
+            "recalibrate entities",
+            "recalibrate entity processor",
+            "retrain entities",
+            "retrain entity"
+         ],
+         "responses":[
+            "Entity reboot complete",
+            "Entity detector recalibrated",
+            "Entities Reprocessed"
+         ],
+         "extension":{
+            "function":"Extensions.Reboot.gLanguage.relearn_Entities",
+            "responses":[
+               "Entity reboot complete",
+               "Entity detector recalibrated",
+               "Entities Reprocessed"
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+       {
+         "intent":"AddNewIntent",
+         "patterns":[
+            "Add intent",
+            "Add new intent",
+            "Add to intents",
+            "Create new intent",
+            "Build intent",
+            "Generate intent"
+         ],
+         "responses":[
+            "New Intent Created",
+            "Intent Created",
+            "I have added the new intent"
+         ],
+         "extension":{
+            "function":"Extensions.Learning.gNewSkills.add_intent",
+            "responses":[
+               "I have added the new intent.",
+               "The new intent has been created."
+            ]
+         },
+          "entityType": "NA",
+          "entities": []
+      },
+       {
+         "intent":"UnknownPhrase",
+         "patterns":[],
+         "responses":[
+            "I don't seem to know that phrase. Say add new intent to teach me.",
+            "I'm not sure what you mean. You might try adding a new intent.",
+            "I'm not sure how to process that. Say add new intent to teach me.",
+            "I'm unaware how to process that. You can say add new intent to teach me."
+         ],
+         "extension":{
+            "function":"",
+            "responses":[]
+         },
+          "entityType": "NA",
+          "entities": []
+      },
+      {
+         "intent":"PowerDown",
+         "patterns":[
+            "Power down",
+            "Can you turn off",
+            "Can you shut down please",
+            "Deactivate",
+            "Shut down",
+            "Will you shut down",
+            "Terminate all processes"
+         ],
+         "responses":[
+            "Shutting down now",
+            "Deactivating all processes",
+            "Powering down"
+         ],
+         "extension":{
+            "function":"",
+            "responses":[
+
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"CurrentWeather",
+         "patterns":[
+            "What is the weather",
+            "What is the current weather",
+            "What is the weather like",
+            "How is the weather today",
+            "How is the weather outside",
+            "What is the weather like",
+            "Tell me the weather"
+         ],
+         "responses":[
+            "The current weather is <TEMPERATURE> and <SKY>.",
+            "The temperature is <TEMPERATURE> and it is <SKY>.",
+            "It is <TEMPERATURE> and <SKY>."
+         ],
+         "extension":{
+            "function":"Extensions.Weather.gWeather.get_current_weather",
+            "entities":true,
+            "responses":[
+               "The current weather is %%TEMPERATURE%% and %%SKY%%.",
+               "The temperature is %%TEMPERATURE%% and it is %%SKY%%.",
+               "It is %%TEMPERATURE%% and %%SKY%%."
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent":"CurrentWeatherOfLocation",
+         "patterns":[
+            "What is the weather in Louisville Kentucky",
+            "What is the current weather of Washington DC",
+            "What is the weather like in Tulsa Oklahoma",
+            "How is the weather today Atlanta",
+            "How is the weather in Cleveland Ohio",
+            "What is the weather in Williamsburg Virgina",
+            "Tell me the weather of Portland Oregon"
+         ],
+         "responses":[
+            "The current weather of <LOCATION> is <TEMPERATURE> and <SKY>.",
+            "The temperature in <LOCATION> is <TEMPERATURE> and it is <SKY>.",
+            "It is <TEMPERATURE> and <SKY> in <LOCATION>."
+         ],
+         "extension":{
+            "function":"Extensions.Weather.gWeather.get_current_weather_of_location",
+            "entities":true,
+            "responses":[
+               "The current weather of %%LOCATION%% is %%TEMPERATURE%% and %%SKY%%.",
+               "The temperature in %%LOCATION%% is %%TEMPERATURE%% and it is %%SKY%%.",
+               "It is %%TEMPERATURE%% and %%SKY%% in %%LOCATION%%."
+            ]
+         },
+         "entityType": "NA",
+         "entities": [[{
+               "entity":"LOCATION",
+               "rangeStart": 5,
+               "rangeEnd": 6
+            }],
+            [{
+               "entity":"LOCATION",
+               "rangeStart": 6,
+               "rangeEnd": 7
+            }],
+            [{
+               "entity":"LOCATION",
+               "rangeStart": 6,
+               "rangeEnd": 7
+            }],
+            [{
+               "entity":"LOCATION",
+               "rangeStart": 5,
+               "rangeEnd": 5
+            }],
+            [{
+               "entity":"LOCATION",
+               "rangeStart": 5,
+               "rangeEnd": 6
+            }],
+            [{
+               "entity":"LOCATION",
+               "rangeStart": 5,
+               "rangeEnd": 6
+            }],
+            [{
+               "entity":"LOCATION",
+               "rangeStart": 5,
+               "rangeEnd": 6
+            }]
+         ]
+      },
+      {
+         "intent":"ToggleAllLights",
+         "patterns":[
+            "Set the lights to 100",
+            "Dim lights to 22",
+            "Raise all lights to 59%",
+            "Set all the lights to 80%",
+            "Set lights to 84",
+            "Toggle lights to 13%"
+         ],
+         "responses":[
+            "Lights set to <LEVEL>",
+            "All lights set to <LEVEL>",
+            "Lights have been set to <LEVEL>"
+         ],
+         "extension":{
+            "function":"Extensions.SmartHome.gPhilipsHue.toggle_all_lights_level",
+            "entities":true,
+            "responses":[
+               "Lights set to %%LEVEL%%",
+               "All lights set to %%LEVEL%%",
+               "Lights have been set to %%LEVEL%%"
+            ]
+         },
+         "entityType": "NA",
+         "entities": [[{
+               "entity":"LEVEL",
+               "rangeStart": 4,
+               "rangeEnd": 4
+            }],
+            [{
+               "entity":"LEVEL",
+               "rangeStart": 3,
+               "rangeEnd": 3
+            }],
+            [{
+               "entity":"LEVEL",
+               "rangeStart": 4,
+               "rangeEnd": 4
+            }],
+            [{
+               "entity":"LEVEL",
+               "rangeStart": 5,
+               "rangeEnd": 5
+            }],
+            [{
+               "entity":"LEVEL",
+               "rangeStart": 3,
+               "rangeEnd": 3
+            }],
+            [{
+               "entity":"LEVEL",
+               "rangeStart": 3,
+               "rangeEnd": 3
+            }]
+         ]
+      },
+      {
+         "intent":"ToggleSingleLight",
+         "patterns":[
+            "Set bed light to 100",
+            "Raise bed lamp to 59%",
+            "Set TV light to 34",
+            "Toggle piano light to 13",
+            "Set entertainment light to 100%",
+            "Dim floor lamp to 22%",
+            "Raise kitchen light to 59%"
+         ],
+         "responses":[
+            "<LIGHT> set to <LEVEL>",
+            "<LIGHT> set to <LEVEL>",
+            "<LIGHT> has been set to <LEVEL>"
+         ],
+         "extension":{
+            "function":"Extensions.SmartHome.gPhilipsHue.toggle_single_light",
+            "entities":true,
+            "responses":[
+               "%%LIGHT%% set to %%LEVEL%%",
+               "%%LIGHT%% set to %%LEVEL%%",
+               "%%LIGHT%% has been set to %%LEVEL%%"
+            ]
+         },
+         "entityType": "NA",
+         "entities": [[{
+               "entity":"LIGHT",
+               "rangeStart": 1,
+               "rangeEnd": 2
+            },
+            {
+               "entity":"LEVEL",
+               "rangeStart": 4,
+               "rangeEnd": 4
+            }],
+            [{
+               "entity":"LIGHT",
+               "rangeStart": 1,
+               "rangeEnd": 2
+            },{
+               "entity":"LEVEL",
+               "rangeStart": 4,
+               "rangeEnd": 4
+            }],
+            [{
+               "entity":"LIGHT",
+               "rangeStart": 1,
+               "rangeEnd": 2
+            },{
+               "entity":"LEVEL",
+               "rangeStart": 4,
+               "rangeEnd": 4
+            }],
+            [{
+               "entity":"LIGHT",
+               "rangeStart": 1,
+               "rangeEnd": 2
+            },{
+               "entity":"LEVEL",
+               "rangeStart": 4,
+               "rangeEnd": 4
+            }],
+            [{
+               "entity":"LIGHT",
+               "rangeStart": 1,
+               "rangeEnd": 2
+            },{
+               "entity":"LEVEL",
+               "rangeStart": 4,
+               "rangeEnd": 4
+            }],
+            [{
+               "entity":"LIGHT",
+               "rangeStart": 1,
+               "rangeEnd": 2
+            },{
+               "entity":"LEVEL",
+               "rangeStart": 4,
+               "rangeEnd": 4
+            }],
+            [{
+               "entity":"LIGHT",
+               "rangeStart": 1,
+               "rangeEnd": 2
+            },{
+               "entity":"LEVEL",
+               "rangeStart": 4,
+               "rangeEnd": 4
+            }]
+         ]
+      },
+      {
+         "intent":"TurnAllLightsOff",
+         "patterns":[
+            "Turn lights off",
+            "Turn the lights off",
+            "Turn all lights off",
+            "Turn all the lights off"
+         ],
+         "responses":[
+            "Lights are now off",
+            "All lights turned off"
+         ],
+         "extension":{
+            "function":"Extensions.SmartHome.gPhilipsHue.toggle_all_lights_off",
+            "entities":true,
+            "responses":[
+               "Lights are now off",
+               "All lights turned off"
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+       {
+         "intent":"TurnAllLightsOn",
+         "patterns":[
+            "Turn lights on",
+            "Turn the lights on",
+            "Turn all lights on",
+            "Turn all the lights on"
+         ],
+         "responses":[
+            "Lights are now on",
+            "All lights turned on"
+         ],
+         "extension":{
+            "function":"Extensions.SmartHome.gPhilipsHue.toggle_all_lights_on",
+            "entities":true,
+            "responses":[
+               "Lights are now on",
+               "All lights turned on"
+            ]
+         },
+         "entityType": "NA",
+         "entities": []
+      }
+   ]
+}

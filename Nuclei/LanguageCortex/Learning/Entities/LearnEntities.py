@@ -12,11 +12,11 @@ from spacy.util import compounding, minibatch
 class EntityTrainer():
     def __init__(self):
 
-        self.model_dir = Path(r"C:\Users\jcsan\PycharmProjects\pythonProject\Nuclei\LanguageCortex\Learning\Entities\Model")
+        self.model_dir = Path(r"C:\Users\jcsan\PycharmProjects\Mac1\Nuclei\LanguageCortex\Learning\Entities\Model")
 
     def train(self, model=None):
         intents = json.loads(open(
-            r"C:\Users\jcsan\PycharmProjects\pythonProject\Nuclei\LanguageCortex\Learning\FunctionalIntents.json").read())
+            r"C:\Users\jcsan\PycharmProjects\Mac1\Nuclei\LanguageCortex\Learning\FunctionalIntents.json").read())
         training_data_set = self.createDataset(intents)
         if model is not None:
             nlp = spacy.load(model)  # load existing spacy model

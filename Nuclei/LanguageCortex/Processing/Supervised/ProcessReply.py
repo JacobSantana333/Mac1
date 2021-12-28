@@ -13,7 +13,7 @@ import json
 import random
 
 
-intents = json.loads(open('C:\Users\jcsan\PycharmProjects\pythonProject\Nuclei\LanguageCortex\Learning\FunctionalIntents.json').read())
+intents = json.loads(open('C:\Users\jcsan\PycharmProjects\Mac1\Nuclei\LanguageCortex\Learning\FunctionalIntents.json').read())
 words = pickle.load(open('Nuclei/LanguageCortex/Learning/Supervised/words.pkl', 'rb'))
 classes = pickle.load(open('Nuclei/LanguageCortex/Learning/Supervised/classes.pkl', 'rb'))
 

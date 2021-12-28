@@ -17,7 +17,7 @@ import torch.nn.functional as F
 class BertProcessor:
     def __init__(self, helper):
         self.helper = helper
-        self.intents = json.loads(open(r"C:\Users\jcsan\PycharmProjects\pythonProject\Nuclei\LanguageCortex\Learning\FunctionalIntents.json").read())
+        self.intents = json.loads(open(r"C:\Users\jcsan\PycharmProjects\Mac1\Nuclei\LanguageCortex\Learning\FunctionalIntents.json").read())
         self.tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
         self.device = torch.device('cuda')
 

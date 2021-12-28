@@ -13,8 +13,8 @@ class gLanguage:
 
     def relearn_language(self, responses, entities):
 
-        ModifiedIntetns = r"C:\Users\jcsan\PycharmProjects\pythonProject\Nuclei\LanguageCortex\Learning\ModifiableIntents.json"
-        FunctionalIntents=r"C:\Users\jcsan\PycharmProjects\pythonProject\Nuclei\LanguageCortex\Learning\FunctionalIntents.json"
+        ModifiedIntetns = r"C:\Users\jcsan\PycharmProjects\Mac1\Nuclei\LanguageCortex\Learning\ModifiableIntents.json"
+        FunctionalIntents=r"C:\Users\jcsan\PycharmProjects\Mac1\Nuclei\LanguageCortex\Learning\FunctionalIntents.json"
 
         shutil.copyfile(ModifiedIntetns, FunctionalIntents)
 

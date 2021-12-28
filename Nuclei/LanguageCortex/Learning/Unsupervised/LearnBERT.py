@@ -26,7 +26,7 @@ device = torch.device('cuda')
 
 def train_bert():
     templist =[]
-    data = json.loads(open(r"C:\Users\jcsan\PycharmProjects\pythonProject\Nuclei\LanguageCortex\Learning\FunctionalIntents.json").read())
+    data = json.loads(open(r"C:\Users\jcsan\PycharmProjects\Mac1\Nuclei\LanguageCortex\Learning\FunctionalIntents.json").read())
     for i in data["intents"]:
         for pattern in i["patterns"]:
             templist.append([pattern, i["intent"]])
@@ -98,7 +98,7 @@ def train_bert():
         print(f'\nTraining Loss: {train_loss:.3f}')
 
     torch.save(model,
-               r"C:\Users\jcsan\PycharmProjects\pythonProject\Nuclei\LanguageCortex\Learning\Unsupervised\BertModel.pt")
+               r"C:\Users\jcsan\PycharmProjects\Mac1\Nuclei\LanguageCortex\Learning\Unsupervised\BertModel.pt")
 
 
 class BERT_Arch(nn.Module):
@@ -188,7 +188,7 @@ def train(model,train_dataloader,cross_entropy,optimizer):
 
 
 def load_bert():
-    return torch.load(r"C:\Users\jcsan\PycharmProjects\pythonProject\Nuclei\LanguageCortex\Learning\Unsupervised\BertModel.pt")
+    return torch.load(r"C:\Users\jcsan\PycharmProjects\Mac1\Nuclei\LanguageCortex\Learning\Unsupervised\BertModel.pt")
 
 #train_bert()
 
