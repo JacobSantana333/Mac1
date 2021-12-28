@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a68030e-b8db-47f0-a380-5a6ab758168f" name="Changes" comment="Revert &quot;fixed the issues&quot;&#10;&#10;This reverts commit 6807fa07a8cdef59a42443ce65c704e4e47e7d63.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Mac1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mac1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/LearnEntities.py" beforeDir="false" afterPath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/LearnEntities.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/meta.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/ner/cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/ner/cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/ner/model" beforeDir="false" afterPath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/ner/model" afterDir="false" />
@@ -15,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/vocab/strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/vocab/strings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/vocab/vectors" beforeDir="false" afterPath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/vocab/vectors" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Unsupervised/BertModel.pt" beforeDir="false" afterPath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Unsupervised/BertModel.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +35,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="22to5ifIzMNWQAZMaI22CRnWX4R" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -173,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640715197702</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Revert &quot;fixed the issues&quot;&#10;&#10;This reverts commit 6807fa07a8cdef59a42443ce65c704e4e47e7d63.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1640716464838</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640716464838</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
