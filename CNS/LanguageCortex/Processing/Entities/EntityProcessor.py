@@ -7,7 +7,7 @@ class EntityProcessor():
     def __init__(self,helper):
         self.helper = helper
 
-        self.model_dir = Path(r"C:\Users\jcsan\PycharmProjects\Mac1\Nuclei\LanguageCortex\Learning\Entities\Model")
+        self.model_dir = Path(r"C:\Users\jcsan\PycharmProjects\Mac1\CNS\LanguageCortex\Learning\Entities\Model")
         self.trained_nlp = spacy.load(self.model_dir)
 
     def predict_entities(self, input):

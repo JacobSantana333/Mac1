@@ -19,7 +19,7 @@ def learn_language():
     classes = []
     documents = []
     ignore_words = ['?', '!']
-    data_file = open(r'C:\Users\jcsan\PycharmProjects\Mac1\Nuclei\LanguageCortex\Learning\FunctionalIntents.json').read()
+    data_file = open(r'/CNS\LanguageCortex\Learning\FunctionalIntents.json').read()
     intents = json.loads(data_file)
     for intent in intents['intents']:
         for pattern in intent['patterns']:
@@ -45,8 +45,8 @@ def learn_language():
 
     print(len(words), "unique lemmatized words", words)
 
-    pickle.dump(words, open(r'C:\Users\jcsan\PycharmProjects\Mac1\Nuclei\LanguageCortex\Learning\Supervised\words.pkl', 'wb'))
-    pickle.dump(classes, open(r'C:\Users\jcsan\PycharmProjects\Mac1\Nuclei\LanguageCortex\Learning\Supervised\classes.pkl', 'wb'))
+    pickle.dump(words, open(r'/CNS\LanguageCortex\Learning\Supervised\words.pkl', 'wb'))
+    pickle.dump(classes, open(r'/CNS\LanguageCortex\Learning\Supervised\classes.pkl', 'wb'))
 
     # initializing training data
     training = []
@@ -90,7 +90,7 @@ def learn_language():
 
     # fitting and saving the model
     hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
-    model.save('Nuclei/LanguageCortex/Learning/Supervised/chatbot_model.h5', hist)
+    model.save('CNS/LanguageCortex/Learning/Supervised/chatbot_model.h5', hist)
 
     print("model created")
 

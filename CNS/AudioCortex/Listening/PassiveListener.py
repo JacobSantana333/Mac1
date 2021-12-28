@@ -1,9 +1,9 @@
 import logging
 
 import speech_recognition as sr
-from Nuclei.AudioCortex.Speaking.Respond import speak
-from Nuclei.LanguageCortex.Processing.Entities.EntityProcessor import EntityProcessor
-from Nuclei.LanguageCortex.Processing.Unsupervised.BertProcessor import BertProcessor
+from CNS.AudioCortex.Speaking.Respond import speak
+from CNS.LanguageCortex.Processing.Entities.EntityProcessor import EntityProcessor
+from CNS.LanguageCortex.Processing.Unsupervised.BertProcessor import BertProcessor
 
 
 class PassiveListener:

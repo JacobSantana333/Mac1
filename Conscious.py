@@ -1,7 +1,7 @@
 import logging
 import time
-from Nuclei.LanguageCortex.Learning.Unsupervised.LearnBERT import *
-from Nuclei.AudioCortex.Listening.PassiveListener import PassiveListener
+from CNS.LanguageCortex.Learning.Unsupervised.LearnBERT import *
+from CNS.AudioCortex.Listening.PassiveListener import PassiveListener
 from tools.Helpers import Helpers
 
 helper = Helpers()

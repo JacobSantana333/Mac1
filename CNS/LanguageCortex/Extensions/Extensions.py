@@ -22,7 +22,7 @@ def utilize_extension(extension_function, extension_responses,entities):
     class_subfolder = class_parts[1]
     class_name = class_parts[2]
     class_function = class_parts[3]
-    module = __import__("Nuclei.LanguageCortex." + class_folder + "." + class_subfolder + "." + class_name, globals(),
+    module = __import__("CNS.LanguageCortex." + class_folder + "." + class_subfolder + "." + class_name, globals(),
                         locals(), [class_name])
     extension_class = getattr(module, class_name)()
     response = getattr(extension_class, class_function)(extension_responses,entities)

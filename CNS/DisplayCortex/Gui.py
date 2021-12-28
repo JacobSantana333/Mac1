@@ -1,11 +1,11 @@
 from kivy.app import App
 from kivy.uix.gridlayout import GridLayout
 from kivy.core.window import Window
-from Nuclei.DisplayCortex.DataFeeds.AudioFeed import AudioFeed
-from Nuclei.DisplayCortex.DataFeeds.StatusFeed import StatusFeed
-from Nuclei.DisplayCortex.DataFeeds.TempFeed import TempFeed
-from Nuclei.DisplayCortex.DataFeeds.TopRowFeed import TopRowFeed
-from Nuclei.DisplayCortex.DataFeeds.VideoFeed import VideoFeed
+from CNS.DisplayCortex.DataFeeds.AudioFeed import AudioFeed
+from CNS.DisplayCortex.DataFeeds.StatusFeed import StatusFeed
+from CNS.DisplayCortex.DataFeeds.TempFeed import TempFeed
+from CNS.DisplayCortex.DataFeeds.TopRowFeed import TopRowFeed
+from CNS.DisplayCortex.DataFeeds.VideoFeed import VideoFeed
 
 Window.size = (1500, 1000)
 

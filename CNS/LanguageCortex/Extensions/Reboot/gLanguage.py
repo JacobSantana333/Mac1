@@ -1,9 +1,9 @@
 import random
 import shutil
 
-from Nuclei.LanguageCortex.Learning.Entities.LearnEntities import EntityTrainer
-from Nuclei.LanguageCortex.Learning.Supervised.LearnSupervised import learn_language
-from Nuclei.LanguageCortex.Learning.Unsupervised.LearnBERT import train_bert
+from CNS.LanguageCortex.Learning.Entities.LearnEntities import EntityTrainer
+from CNS.LanguageCortex.Learning.Supervised.LearnSupervised import learn_language
+from CNS.LanguageCortex.Learning.Unsupervised.LearnBERT import train_bert
 
 
 class gLanguage:
@@ -13,8 +13,8 @@ class gLanguage:
 
     def relearn_language(self, responses, entities):
 
-        ModifiedIntetns = r"C:\Users\jcsan\PycharmProjects\Mac1\Nuclei\LanguageCortex\Learning\ModifiableIntents.json"
-        FunctionalIntents=r"C:\Users\jcsan\PycharmProjects\Mac1\Nuclei\LanguageCortex\Learning\FunctionalIntents.json"
+        ModifiedIntetns = r"C:\Users\jcsan\PycharmProjects\Mac1\CNS\LanguageCortex\Learning\ModifiableIntents.json"
+        FunctionalIntents=r"C:\Users\jcsan\PycharmProjects\Mac1\CNS\LanguageCortex\Learning\FunctionalIntents.json"
 
         shutil.copyfile(ModifiedIntetns, FunctionalIntents)
 

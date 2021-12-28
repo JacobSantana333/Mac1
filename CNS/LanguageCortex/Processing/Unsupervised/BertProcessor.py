@@ -7,8 +7,8 @@ import torch
 import random
 from transformers import BertTokenizerFast
 
-from Nuclei.LanguageCortex.Extensions.Extensions import get_extension, utilize_extension
-from Nuclei.LanguageCortex.Learning.Unsupervised.LearnBERT import *
+from CNS.LanguageCortex.Extensions.Extensions import get_extension, utilize_extension
+from CNS.LanguageCortex.Learning.Unsupervised.LearnBERT import *
 from tools.Helpers import Helpers
 from sklearn.preprocessing import LabelEncoder
 import torch.nn.functional as F
@@ -17,7 +17,7 @@ import torch.nn.functional as F
 class BertProcessor:
     def __init__(self, helper):
         self.helper = helper
-        self.intents = json.loads(open(r"C:\Users\jcsan\PycharmProjects\Mac1\Nuclei\LanguageCortex\Learning\FunctionalIntents.json").read())
+        self.intents = json.loads(open(r"CNS\LanguageCortex\Learning\FunctionalIntents.json").read())
         self.tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
         self.device = torch.device('cuda')
 

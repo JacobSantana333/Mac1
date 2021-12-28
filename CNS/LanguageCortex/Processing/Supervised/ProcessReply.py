@@ -4,18 +4,18 @@ import nltk
 from keras.models import load_model
 from nltk.stem import WordNetLemmatizer
 
-from Nuclei.LanguageCortex.Extensions.Extensions import utilize_extension, get_extension
+from CNS.LanguageCortex.Extensions.Extensions import utilize_extension, get_extension
 
 lemmatizer = WordNetLemmatizer()
 
-model = load_model('Nuclei/LanguageCortex/Learning/Supervised/chatbot_model.h5')
+model = load_model('CNS/LanguageCortex/Learning/Supervised/chatbot_model.h5')
 import json
 import random
 
 
-intents = json.loads(open('C:\Users\jcsan\PycharmProjects\Mac1\Nuclei\LanguageCortex\Learning\FunctionalIntents.json').read())
-words = pickle.load(open('Nuclei/LanguageCortex/Learning/Supervised/words.pkl', 'rb'))
-classes = pickle.load(open('Nuclei/LanguageCortex/Learning/Supervised/classes.pkl', 'rb'))
+intents = json.loads(open('CNS\LanguageCortex\Learning\FunctionalIntents.json').read())
+words = pickle.load(open('CNS/LanguageCortex/Learning/Supervised/words.pkl', 'rb'))
+classes = pickle.load(open('CNS/LanguageCortex/Learning/Supervised/classes.pkl', 'rb'))
 
 
 def clean_up_sentence(sentence):
