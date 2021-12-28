@@ -1,3 +1,6 @@
 /Logs/
 /CNS/LanguageCortex/Learning/Entities/Model/
 /CNS/LanguageCortex/Learning/Unsupervised/BertModel.pt
+/CNS/LanguageCortex/Learning/Supervised/chatbot_model.h5
+/CNS/LanguageCortex/Learning/Supervised/classes.pkl
+/CNS/LanguageCortex/Learning/Supervised/words.pkl

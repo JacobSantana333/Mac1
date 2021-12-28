@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a68030e-b8db-47f0-a380-5a6ab758168f" name="Changes" comment="Revert &quot;fixed the issues&quot;&#10;&#10;This reverts commit 6807fa07a8cdef59a42443ce65c704e4e47e7d63.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Mac1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/AudioCortex/Listening/ActiveListener.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/AudioCortex/Listening/PassiveListener.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/AudioCortex/Listening/recording.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/AudioCortex/Speaking/Respond.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/AudioFeed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/StatusFeed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/TempFeed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/TopRowFeed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/DisplayCortex/DataFeeds/VideoFeed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/DisplayCortex/Gui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/DateTime/gCurrentDateTime.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/Extensions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/Learning/gNewSkills.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/Personal/gHumans.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/Reboot/gLanguage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/SmartHome/gPhilipsHue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Extensions/Weather/gWeather.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Entities/LearnEntities.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/FunctionalIntents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/ModifiableIntents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Supervised/LearnSupervised.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Unsupervised/LearnBERT.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Processing/Entities/EntityProcessor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Processing/Supervised/ProcessReply.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNS/LanguageCortex/Processing/Unsupervised/BertProcessor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conscious.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Supervised/chatbot_model.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Supervised/classes.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Supervised/words.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/Helpers.py" beforeDir="false" />
-    </list>
+    <list default="true" id="1a68030e-b8db-47f0-a380-5a6ab758168f" name="Changes" comment="Revert &quot;fixed the issues&quot;&#10;&#10;This reverts commit 6807fa07a8cdef59a42443ce65c704e4e47e7d63.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <list id="aa579199-ec86-47bd-a56a-28c67ae98f80" name="Ignore" comment="Ignore">
       <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/meta.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Nuclei/LanguageCortex/Learning/Entities/Model/ner/cfg" beforeDir="false" />
@@ -99,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Conscious">
+  <component name="RunManager" selected="Python.LearnEntities (1)">
     <configuration name="Conscious" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Mac1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,6 +123,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="LearnEntities (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Mac1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Entities" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNS/LanguageCortex/Learning/Entities/LearnEntities.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="LearnEntities" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Mac1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,6 +167,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LearnEntities (1)" />
         <item itemvalue="Python.Conscious" />
         <item itemvalue="Python.LearnEntities" />
         <item itemvalue="Python.LearnBERT" />
@@ -252,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640717994034</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Revert &quot;fixed the issues&quot;&#10;&#10;This reverts commit 6807fa07a8cdef59a42443ce65c704e4e47e7d63.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1640718451490</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1640718451490</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
